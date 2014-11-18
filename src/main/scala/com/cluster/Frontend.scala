@@ -15,6 +15,10 @@ import akka.util.Timeout
 import scala.concurrent.duration._
 
 class Frontend extends Actor with ActorLogging {
+  /**
+   * 
+   * backends is a sq of ActorRef of cluster nodes registered
+   */
   var backends = IndexedSeq.empty[ActorRef]
   var jobCounter = 0
   
@@ -23,15 +27,18 @@ class Frontend extends Actor with ActorLogging {
     
     
     case job: Job =>
-      jobCounter + 1
+      log.info("Forwaring the Job to one of the nodes, {}", job)
+      jobCounter += 1
       backends(jobCounter % backends.size) forward job
       
       
     case BackendRegistration if !backends.contains(sender) => 
+      log.info("Registration successful cluster node {}", sender.path)
       context watch sender
       backends = backends :+ sender
     
-    case Terminated(backend) => backends = backends filterNot(_ == backend) 
+    case Terminated(backend) => log.info("Looks like {} is terminated", backend.path)
+      							backends = backends filterNot(_ == backend) 
   }
 }
 
@@ -50,11 +57,19 @@ object Frontend {
     
     implicit val timeout = Timeout(10 seconds)
     
-    (frontend ? Job(Random.nextInt(20))) onSuccess {
-      case Message(msg) => println(s"Message: msg")
-      case JobResult(num) => println(s"Result: $num")
+    
+    def block = (frontend ? Job(Random.nextInt(20))) onSuccess {
+      case result => result match {
+        case Message(msg) => println(s"Message: $msg")
+        case JobResult(num) => println(s"Result: $num")  
+        case _ => println("Unknown message has been received")
+      }
     }
     
+    system.scheduler.schedule(2 seconds, 3 seconds) {
+      println(s"Job${counter.getAndIncrement()} submitted")
+      block
+    }
     
   }
 }

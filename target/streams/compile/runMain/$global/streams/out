@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mRunning com.cluster.Frontend [0m
+[0m[[0mdebug[0m] [0mWaiting for threads to exit or System.exit to be called.[0m
+[0m[[0mdebug[0m] [0m  Classpath:[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/Documents/Projects/DistributedComputing/target/scala-2.10/classes[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.sbt/boot/scala-2.10.4/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/com.typesafe.akka/akka-cluster_2.10/jars/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/com.typesafe.akka/akka-remote_2.10/jars/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/io.netty/netty/bundles/netty-3.8.0.Final.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/com.google.protobuf/protobuf-java/bundles/protobuf-java-2.5.0.jar[0m
+[0m[[0mdebug[0m] [0m	/home/nagarjuna/.ivy2/cache/org.uncommons.maths/uncommons-maths/jars/uncommons-maths-1.2.2a.jar[0m
+[0m[[0mdebug[0m] [0mWaiting for thread run-main-0 to terminate.[0m
+[0m[[0mdebug[0m] [0m	Thread run-main-0 exited.[0m
+[0m[[0mdebug[0m] [0mWaiting for thread ClusterSystem-akka.actor.default-dispatcher-16 to terminate.[0m
