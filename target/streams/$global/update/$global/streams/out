@@ -1,0 +1,573 @@
+[0m[[0minfo[0m] [0mUpdating {file:/home/nagarjuna/Documents/Projects/DistributedComputing/}distributedcomputing...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#distributedcomputing_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@5feb3c40[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-library;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-cluster_2.10/2.4-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: found md file for com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom (2.4-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT!akka-cluster_2.10.pom(pom.original) (980ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-cluster_2.10/2.4-SNAPSHOT/jars/akka-cluster_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mcom.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT in Akka Snapshot Repository[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-remote_2.10/2.4-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: found md file for com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom (2.4-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT!akka-remote_2.10.pom(pom.original) (943ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-remote_2.10/2.4-SNAPSHOT/jars/akka-remote_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mcom.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT in Akka Snapshot Repository[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-actor_2.10/2.4-SNAPSHOT/ivys/ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: found md file for com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom (2.4-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT!akka-actor_2.10.pom(pom.original) (957ms)[0m
+[0m[[0mdebug[0m] [0m		tried /home/nagarjuna/.ivy2/local/com.typesafe.akka/akka-actor_2.10/2.4-SNAPSHOT/jars/akka-actor_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0mcom.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT is changing, but has not changed: will trust cached artifacts if any[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT in Akka Snapshot Repository[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.typesafe#config;1.2.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.typesafe#config;1.2.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.typesafe#config;1.2.1[0m
+[0m[[0mdebug[0m] [0m	found com.typesafe#config;1.2.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving io.netty#netty;3.8.0.Final ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: io.netty#netty;3.8.0.Final {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: io.netty#netty;3.8.0.Final[0m
+[0m[[0mdebug[0m] [0m	found io.netty#netty;3.8.0.Final in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving com.google.protobuf#protobuf-java;2.5.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.google.protobuf#protobuf-java;2.5.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.google.protobuf#protobuf-java;2.5.0[0m
+[0m[[0mdebug[0m] [0m	found com.google.protobuf#protobuf-java;2.5.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.uncommons.maths#uncommons-maths;1.2.2a ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.uncommons.maths#uncommons-maths;1.2.2a {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.uncommons.maths#uncommons-maths;1.2.2a[0m
+[0m[[0mdebug[0m] [0m	found org.uncommons.maths#uncommons-maths;1.2.2a in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT->com.typesafe#config;1.2.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->io.netty#netty;3.8.0.Final [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->com.google.protobuf#protobuf-java;2.5.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT->org.uncommons.maths#uncommons-maths;1.2.2a [runtime->compile][0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jcommon;1.0.12 {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0mexcluding dependency: jfree#jfreechart;1.0.8a {compile=[compile(*), master(*)], runtime=[runtime(*)]} in runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#distributedcomputing_2.10;1.0.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.4 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.4] org.scala-lang#scala-reflect;2.10.4[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->master(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-library;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#scala-reflect;2.10.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.4 {optional=[compile(*), master(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.4[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.4->org.scala-lang#jline;2.10.4 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->master(*)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.4->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#distributedcomputing_2.10;1.0.0->org.scala-lang#scala-library;2.10.4 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.4!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-cluster_2.10/2.4-SNAPSHOT/akka-cluster_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-cluster_2.10;2.4-SNAPSHOT!akka-cluster_2.10.jar (4327ms)[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-remote_2.10/2.4-SNAPSHOT/akka-remote_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-remote_2.10;2.4-SNAPSHOT!akka-remote_2.10.jar (6365ms)[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0mdownloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar ...[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	Akka Snapshot Repository: downloading http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar.sha1[0m
+[0m[[0mdebug[0m] [0msha1 OK for http://repo.akka.io/snapshots/com/typesafe/akka/akka-actor_2.10/2.4-SNAPSHOT/akka-actor_2.10-2.4-SNAPSHOT.jar[0m
+[0m[[0minfo[0m] [0m	[SUCCESSFUL ] com.typesafe.akka#akka-actor_2.10;2.4-SNAPSHOT!akka-actor_2.10.jar (16560ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] io.netty#netty;3.8.0.Final!netty.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.google.protobuf#protobuf-java;2.5.0!protobuf-java.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.uncommons.maths#uncommons-maths;1.2.2a!uncommons-maths.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.typesafe#config;1.2.1!config.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.4!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.4!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 14939ms :: artifacts dl 27280ms[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 compile produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 runtime produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 test produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 provided produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 optional produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 compile-internal produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 runtime-internal produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 test-internal produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 plugin produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 sources produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 docs produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 pom produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#distributedcomputing_2.10;1.0.0 scala-tool produced in /home/nagarjuna/Documents/Projects/DistributedComputing/target/resolution-cache/reports/default-distributedcomputing_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (14939ms resolve - 27280ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
